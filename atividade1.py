@@ -3,10 +3,8 @@
 Created on Fri Nov  3 19:40:41 2017
 @author: alice.marteli
 """
-import json
 import networkx as nx 
 import matplotlib.pyplot as plt
-import random
 
 print('\nmatriz --> lista\n')
 

@@ -47,8 +47,8 @@ print(matriz2)
 
 
 g = nx.Graph(dicionario)  
-plt.figure( 3  ,figsize=(12,12))
-nx.draw(g2, font_size=8, with_labels = True)
+plt.figure( 3  ,figsize=(5,5))
+nx.draw(g, font_size=8, with_labels = True)
 plt.savefig('grafo.png')
 plt.show()
 
@@ -68,7 +68,7 @@ total = 0
 for valor in dic_grau:
     total = total + dic_grau[valor]
 media = total/len(dic_grau)
-print('Grau Medio:', media)
+print('\nGrau Medio:', media)
 
 
 
@@ -91,10 +91,10 @@ total_arestas = len(set(temp_list))
   
 print('\nNumero de Arestas: ', total_arestas)  
     
-print('Diametro:'+str(nx.diameter(g)))
+print('\nDiametro:'+str(nx.diameter(g)))
 
 
-print('\nCoeficientede Aglomeração):  ', nx.clustering(g))
+print('\nCoeficientede Aglomeração: ', nx.clustering(g))
 dic_aglomeracao = nx.clustering(g)
 total_aglomeracao = 0
 
@@ -102,7 +102,7 @@ for chave in dic_aglomeracao:
     total_aglomeracao += dic_aglomeracao[chave]
     
 media_aglomeracao = total_aglomeracao/len(dic_aglomeracao)
-print('\nCoeficiente de Aglomeração Médio:  ', media_aglomeracao)
+print('\nCoeficiente de Aglomeração Médio: ', media_aglomeracao)
 
 
 print('\nMinimo Caminho Medio:'+str(nx.average_shortest_path_length(g)))

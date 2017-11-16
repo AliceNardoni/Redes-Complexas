@@ -1,0 +1,29 @@
+Para realizar a extração dos dados e tratamento foram utilizados:
+
+Plugin Chrome: Lost Circles - Facebook Graph Visualizer
+só colocar ele no busca com o face logado, como  se fosse procurar alguem..
+dai aparece e instala o plugin (com o idioma do facebook em ingles)​
+
+
+Visualização dados:
+
+http://jsoneditoronline.org/
+
+
+
+Para análise das redes complexas:
+
+https://www.youtube.com/watch?v=1ErL1z_lKd8
+ 
+documentação de bibliotecas py:
+
+https://matplotlib.org/users/pyplot_tutorial.
+
+
+Tbm há a opção:
+
+https://developers.facebook.com/
+Ferramentas
+Explorador da Graph API
+obter token, seleciona as opções, enviar
+friends, enviar, obter codigo, cURL
